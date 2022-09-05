@@ -70,7 +70,7 @@ const AppProvider = (props: AppProps) => {
 
     async function deleteProducts(ids: string[]) {}
 
-    async function addProduct() {
+    async function addProduct(product: IProduct) {
         setIsLoading(true)
 
         setIsLoading(false)
